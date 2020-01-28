@@ -33,3 +33,7 @@ Company website created with HTML and CSS with flexbox, made responsive for mobi
 ![](./ClientsMobile.png)
 
 ![](./MobileContact.png)
+
+# Technologies
+
+HTML and CSS.
