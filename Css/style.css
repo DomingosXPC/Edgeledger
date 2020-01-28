@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin:0;
   padding: 0;
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.4;
 }
 
@@ -19,7 +19,7 @@ p {
   margin: 0.75rem 0;
 }
 
-/* Utility classes */
+/* Utility Classes */
 .container {
   max-width: 1100px;
   margin: auto;
@@ -28,7 +28,7 @@ p {
 }
 
 .text-center {
-  text-align: center;
+  text-align:center;
 }
 
 .text-primary {
@@ -67,25 +67,13 @@ p {
   margin-bottom: 2rem;
 }
 
-.py-1 {
-  padding: 1.5rem 0;
-}
-.py-2 {
-  padding: 2rem 0;
-}
-.py-3 {
-  padding: 3rem 0;
-}
+.py-1 { padding: 1.5rem 0; }
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
 
-.p-1 {
-  padding: 1.5rem;
-}
-.p-2 {
-  padding: 2rem;
-}
-.p-3 {
-  padding: 3rem;
-}
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
 
 .btn {
   display: inline-block;
@@ -114,13 +102,14 @@ p {
   padding: 0.5rem 0;
   border-bottom: #444 dotted 1px;
 }
+
 /* Navbar */
 #navbar {
   display: flex;
   position: sticky;
-  top: 0;
+  top:0;
   background: #333;
-  color: white;
+  color: #fff;
   justify-content: space-between;
   z-index: 1;
   padding: 1rem;
@@ -145,7 +134,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
+  background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -158,15 +147,16 @@ p {
   align-items: center;
   height: 100%;
   padding: 0 2rem;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* Overlay */
   position: absolute;
   top: 65px;
-  left: 0;
-  bottom: 0;
+  left:0;
   right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
 }
 
-/* Section What We Do */
+/* Section: What We Do */
 #what .items {
   display: flex;
   padding: 1rem;
@@ -185,7 +175,7 @@ p {
   margin-bottom: 1rem;
 }
 
-/* Section Who We Are */
+/* Section: Who We Are */
 #who {
   display: flex;
 }
@@ -195,11 +185,10 @@ p {
 }
 
 #who .who-img {
-  background: url("../img/people.jpg") no-repeat center center/cover;
+  background: url('../img/people.jpg') no-repeat center center/cover;
 }
 
-/* Section Clients */
-
+/* Section: Clients */
 #clients .items {
   display: flex;
 }
@@ -210,13 +199,12 @@ p {
   width: 60%;
 }
 
-/* Section Contact */
+/* Section: Contact */
 #contact {
   display: flex;
 }
 
-#contact .map,
-#contact .contact-form {
+#contact .map, #contact .contact-form {
   flex: 1;
 }
 

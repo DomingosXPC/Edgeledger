@@ -1,15 +1,16 @@
 /* Align icon to left */
-#what .items .items {
-    display: flex;
-    text-align: center;
+#what .items .item {
+  display: flex;
+  text-align: left;
 }
-/* Position Icon */
-#what .items .items i {
-    margin-right: 1.3rem;
-    align-self: center;
-    margin-bottom: 0;
+
+/* Position icon */
+#what .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
 }
 
 #contact .map {
-    flex: 2;
+  flex: 2;
 }
